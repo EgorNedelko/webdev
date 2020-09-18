@@ -1,4 +1,8 @@
 html {
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+
     font-size: 10px;
     line-height: 15px;
 }
@@ -7,6 +11,17 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 1.4rem;
     line-height: 140%;
+
+}
+
+header {
+    height: 95px;
+    background-color: #000;
+}
+
+footer {
+    background-color: #000;
+    height: 184px;
 }
 
 ul {
@@ -15,7 +30,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
 
 li {
@@ -44,18 +58,67 @@ h2 {
     font-size: 2.4rem;
 }
 
+
+/* reusable  layout*/
+.two-column-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* by classes */
+.header-navigation {
+    color: #fff;
+}
+
 .your-life-block {
+    background-color: lightgoldenrodyellow;
+    height: 744px;
     text-align: center;
+}
+
+.rappresent-block {
+    background-color: aqua;
+    height: 842px;
+}
+
+.rappresent-content {
+    flex: 50%;
+}
+.rappresent-img {
+    flex: 50%;
 }
 
 .our-community-block {
+    background-color: #F5F6F7;
+    height: 504px;
     text-align: center;
 }
 
+.implement-block {
+    background-color: lightgoldenrodyellow;
+    height: 842px;
+}
+
+.implement-img {
+    flex: 50%;
+}
+
+.implement-content {
+    flex: 50%;
+}
+
 .subscribe-block {
+    background-color: aqua;
+    height: 598px;
     text-align: center;
 }
 
 .download-block {
+    height: 468px;
     text-align: center;
+}
+
+.footer-navigation {
+    color: #fff;
 }
