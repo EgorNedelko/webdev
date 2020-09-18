@@ -9,94 +9,111 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header-navigation">
-            <ul class="header-navigation-buttons">
-                <li class="about-us">About</li>
-                <li class="syllabus">Syllabus</li>
-                <li class="logo"><a href="#" class="header-logo-ico"><object data="./assets/logo-ico.svg" type="image/svg+xml"></object></a></li>
-                <li class="projects">Projects</li>
-                <li class="faq">FAQ</li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <nav class="header-navigation">
+                <ul class="header-navigation-buttons">
+                    <li class="about-us"><a href="#">About</a></li>
+                    <li class="syllabus"><a href="#">Syllabus</a></li>
+                    <li class="logo"><a href="#" class="header-logo-ico"><object data="./assets/logo-ico.svg" type="image/svg+xml"></object></a></li>
+                    <li class="projects"><a href="#">Projects</a></li>
+                    <li class="faq"><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="your-life-block">
-            <h1>Your life is webdev</h1>
-            <p>Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
-            <button class="button get-started" type="submit">Get started</button>
-            <nav class="socials">
-                <ul class="socials-buttons">
-                    <li><a href="#" class="email"><object data="./assets/mail_fff-ico.svg" type="image/svg+xml"></object></a></li>
-                    <li><a href="#" class="facebook"><object data="./assets/facebook_fff-ico.svg" type="image/svg+xml"></object></a></li>
-                    <li><a href="#" class="insta"><object data="./assets/insta_fff-ico.svg" type="image/svg+xml"></object></a></li>
-                    <li><a href="#" class="youtube"><object data="./assets/youtube_fff-ico.svg" type="image/svg+xml"></object></a></li>
-                </ul>
-            </nav>
+            <div class="wrapper">
+                <h1>Your life is webdev</h1>
+                <p>Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+                <button class="button get-started" type="submit">Get started</button>
+                <nav class="socials">
+                    <ul class="socials-buttons">
+                        <li class="email"><a href="#"><object data="./assets/mail_fff-ico.svg" type="image/svg+xml"></object></a></li>
+                        <li class="facebook"><a href="#"><object data="./assets/facebook_fff-ico.svg" type="image/svg+xml"></object></a></li>
+                        <li class="insta"><a href="#"><object data="./assets/insta_fff-ico.svg" type="image/svg+xml"></object></a></li>
+                        <li class="youtube"><a href="#"><object data="./assets/youtube_fff-ico.svg" type="image/svg+xml"></object></a></li>
+                    </ul>
+                </nav>
+            </div>
         </section>
         <section class="rappresent-block">
-            <div class="two-column-layout">
-                <div class="rappresent-content">
-                    <h2>Rappresent your idea with a smart design</h2>
-                    <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs.</p>
-                    <button class="button get-started">Get started</button>
-                </div>
-                <div class="rappresent-img">
-                    <img src="#" alt="rappresent-img">
+            <div class="wrapper">
+                <div class="two-column-layout">
+                    <div class="rappresent-content">
+                        <h2>Rappresent your idea with a smart design</h2>
+                        <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs.</p>
+                        <button class="button get-started">Get started</button>
+                    </div>
+                    <div class="rappresent-img">
+                        <img src="#" alt="rappresent-img">
+                    </div>
                 </div>
             </div>
         </section>
         <section class="our-community-block">
-            <div class="two-column-layout">
-                <div class="our-community-content">
-                    <img src="./assets/community-ico.png" alt="community-ico">
-                    <h2>Our community</h2>
-                    <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
-                </div>
-                <div class="our-community-slider">
-                    <nav class="slider-navigation"></nav>
-                    <div class="slider-images"></div>
+            <div class="wrapper">
+                <div class="two-column-layout">
+                    <div class="our-community-content">
+                        <img src="./assets/community-ico.png" alt="community-ico">
+                        <h2>Our community</h2>
+                        <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
+                    </div>
+                    <div class="our-community-slider">
+                        <nav class="slider-navigation"></nav>
+                        <div class="slider-images"></div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="implement-block">
-            <div class="two-column-layout">
-                <div class="implement-img">
-                    <img src="#" alt="implement-img">
+            <div class="wrapper">
+                <div class="two-column-layout">
+                    <div class="implement-img">
+                        <img src="#" alt="implement-img">
+                    </div>
+                    <div class="implement-content">
+                        <h2>Implement right code</h2>
+                        <p>These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</p>
+                        <button class="button learn-more">Learn more</button>
+                    </div>
                 </div>
-                <div class="implement-content">
-                    <h2>Implement right code</h2>
-                    <p>These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</p>
-                    <button class="button learn-more">Learn more</button>
-                </div>
+            </div>
         </section>
         <section class="subscribe-block">
-            <h2>Sign up for our newsletter</h2>
-            <form class="email-form">
-                <label>
-                    <input type="email" placeholder="Email"><button class="button submit-email" type="submit"><object data="./assets/fa-check-ico.svg" type="image/svg+xml"></object></button>
-                </label>
-            </form>
+            <div class="wrapper">
+                <h2>Sign up for our newsletter</h2>
+                <form class="email-form">
+                    <label>
+                        <input type="email" placeholder="Email"><button class="button submit-email" type="submit"><object data="./assets/fa-check-ico.svg" type="image/svg+xml"></object></button>
+                    </label>
+                </form>
+            </div>
         </section>
         <section class="download-block">
-            <h2>Download the app</h2>
-            <p>Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
-            <ul class="download-buttons">
-                <li><button class="button apple-store">Apple store<object data="./assets/apple-ico.svg" type="image/svg+xml"></object></button></li>
-                <li><button class="button play-market">Play market<object data="./assets/android-svg.svg" type="image/svg+xml"></object></button></li>
-            </ul>
+            <div class="wrapper">
+                <h2>Download the app</h2>
+                <p>Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
+                <ul class="download-buttons">
+                    <li><button class="button apple-store">Apple store<object data="./assets/apple-ico.svg" type="image/svg+xml"></object></button></li>
+                    <li><button class="button play-market">Play market<object data="./assets/android-svg.svg" type="image/svg+xml"></object></button></li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="three-column-layout">
-            <nav class="footer-navigation">
-                <ul class="footer-navigation-buttons">
-                    <li class="credits">Credits</li>
-                    <li class="privacy">Privacy</li>
-                    <li class="our-teams">Our teams</li>
-                </ul>
-            </nav>
-            <a href="#" class="header-logo-ico"><object data="./assets/logo-ico.svg" type="image/svg+xml"></object></a>
-            <p class="footer-credits">by TonYem for RSS at 2020</p>
+        <div class="wrapper">
+            <div class="three-column-layout">
+                <nav class="footer-navigation">
+                    <ul class="footer-navigation-buttons">
+                        <li class="credits"><a href="#">Credits</a></li>
+                        <li class="privacy"><a href="#">Privacy</a></li>
+                        <li class="our-teams"><a href="#">Our teams</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header-logo-ico"><object data="./assets/logo-ico.svg" type="image/svg+xml"></object></a>
+                <p class="footer-credits">by TonYem for RSS at 2020</p>
+            </div>
         </div>
     </footer>
 </body>
