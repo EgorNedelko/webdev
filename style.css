@@ -1,7 +1,5 @@
 html {
     width: 1600px;
-    margin: 0;
-    padding: 0;
 
     font-size: 10px;
     line-height: 15px;
@@ -11,7 +9,6 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 1.4rem;
     line-height: 140%;
-
 }
 
 header {
@@ -25,30 +22,27 @@ footer {
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
-li {
-    display: inline;
-}
 
 h1, h2, button {
     text-transform: uppercase;
 }
 
 button {
+    border: none;
     line-height: 160%;
+}
+
+input {
+    border: none;
 }
 
 h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 6.4rem;
-    
     letter-spacing: 4.5px;
 }
 
@@ -71,10 +65,28 @@ h2 {
     color: #fff;
 }
 
+.header-navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 0;
+    list-style: none;
+    width: 35%;
+}
+
 .your-life-block {
+    text-align: center;
     background-color: lightgoldenrodyellow;
     height: 744px;
-    text-align: center;
+}
+
+.socials-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 0;
+    list-style: none;
+    width: 15%;
 }
 
 .rappresent-block {
@@ -83,10 +95,10 @@ h2 {
 }
 
 .rappresent-content {
-    flex: 50%;
+    flex: 1 407px;
 }
 .rappresent-img {
-    flex: 50%;
+    flex: 1;
 }
 
 .our-community-block {
@@ -109,16 +121,42 @@ h2 {
 }
 
 .subscribe-block {
+    text-align: center;
     background-color: aqua;
     height: 598px;
-    text-align: center;
 }
 
+/*
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}*/
+
 .download-block {
+    background-color: lightgoldenrodyellow;
     height: 468px;
     text-align: center;
 }
 
+.download-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 0;
+    list-style: none;
+    width: 15%;
+}
+
 .footer-navigation {
     color: #fff;
+}
+
+.footer-navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 0;
+    list-style: none;
+    width: 25%;
 }

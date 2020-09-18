@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <nav class="header-navigation">
-            <ul class="navigation">
+            <ul class="header-navigation-buttons">
                 <li class="about-us">About</li>
                 <li class="syllabus">Syllabus</li>
                 <li class="logo"><a href="#" class="header-logo-ico"><object data="./assets/logo-ico.svg" type="image/svg+xml"></object></a></li>
@@ -23,7 +23,7 @@
         <section class="your-life-block">
             <h1>Your life is webdev</h1>
             <p>Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
-            <button class="button get-started">Get started</button>
+            <button class="button get-started" type="submit">Get started</button>
             <nav class="socials">
                 <ul class="socials-buttons">
                     <li><a href="#" class="email"><object data="./assets/mail_fff-ico.svg" type="image/svg+xml"></object></a></li>
@@ -73,24 +73,23 @@
             <h2>Sign up for our newsletter</h2>
             <form class="email-form">
                 <label>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email"><button class="button submit-email" type="submit"><object data="./assets/fa-check-ico.svg" type="image/svg+xml"></object></button>
                 </label>
-                <button class="button submit-email"><object data="./assets/fa-check-ico.svg" type="image/svg+xml"></object></button>
             </form>
         </section>
         <section class="download-block">
             <h2>Download the app</h2>
             <p>Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
-            <div class="2-colum-layout">
-                <button class="button apple-store">Apple store<object data="./assets/apple-ico.svg" type="image/svg+xml"></object></button>
-                <button class="button play-market">Play market<object data="./assets/android-svg.svg" type="image/svg+xml"></object></button>
-            </div>
+            <ul class="download-buttons">
+                <li><button class="button apple-store">Apple store<object data="./assets/apple-ico.svg" type="image/svg+xml"></object></button></li>
+                <li><button class="button play-market">Play market<object data="./assets/android-svg.svg" type="image/svg+xml"></object></button></li>
+            </ul>
         </section>
     </main>
     <footer class="footer">
-        <div class="3-column-layout">
+        <div class="three-column-layout">
             <nav class="footer-navigation">
-                <ul class="navigation">
+                <ul class="footer-navigation-buttons">
                     <li class="credits">Credits</li>
                     <li class="privacy">Privacy</li>
                     <li class="our-teams">Our teams</li>
