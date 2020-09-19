@@ -192,19 +192,39 @@ li.about-us:hover {
 
 .implement-block {
     background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
     height: 842px;
 }
 
+/*
 .implement__wrapper {
     padding: 350px 0;
-}
+}*/
 
 .implement-img {
-    flex: 50%;
+    /*flex: 50%;*/
+    margin: 120px 50px 120px 260px;
 }
 
 .implement-content {
-    flex: 50%;
+    /*flex: 50%;*/
+    width: 415px;
+    line-height: 2rem;
+    margin: 310px 130px 310px 100px;
+}
+
+.implement-content h2 {
+    letter-spacing: 1px;
+    width: 375px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.learn-more-button {
+    width: 180px;
+    margin: 10px 0;
 }
 
 .subscribe-block {
