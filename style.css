@@ -175,13 +175,20 @@ li.about-us:hover {
 
 .our-community-block {
     background-color: #F5F6F7;
+    display: flex;
+    justify-content: space-between;
     height: 504px;
     text-align: center;
 }
 
-.our-community__wrapper {
-    padding: 150px 0;
+.our-community-content {
+    width: 300px;
+    margin: auto auto;
 }
+
+/*.our-community__wrapper {
+    padding: 150px 0;
+}*/
 
 .implement-block {
     background-color: lightgoldenrodyellow;
