@@ -1,8 +1,8 @@
 html {
     width: 1600px;
-
+    margin: 0 auto;
     font-size: 10px;
-    line-height: 15px;
+    
 }
 
 body {
@@ -78,6 +78,7 @@ a {
     font-weight: 700;
 }
 
+
 /* by classes */
 .header-navigation {
     color: #fff;
@@ -95,6 +96,12 @@ a {
     list-style: none;
     width: 35%;
 }
+
+/* interactive button
+li.about-us:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}*/
 
 .your-life-block {
     text-align: center;
@@ -132,19 +139,38 @@ a {
 }
 
 .rappresent-block {
-    background-color: aqua;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
     height: 842px;
 }
-
+/*
 .rappresent__wrapper {
-    padding: 300px 0;
-}
+    padding: 125px 0;
+}*/
 
 .rappresent-content {
-    flex: 1 407px;
+    /*flex: 1;*/
+    width: 407px;
+    line-height: 2rem;
+    margin: 295px 130px 315px 270px;
 }
+
+.rappresent-content h2 {
+    letter-spacing: 1px;
+    width: 375px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.rappresent-button {
+    margin: 10px 0;
+}
+
 .rappresent-img {
-    flex: 1;
+    /*flex: 1;*/
+    margin: 120px 150px 140px 100px;
 }
 
 .our-community-block {
