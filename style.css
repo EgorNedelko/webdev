@@ -59,10 +59,19 @@ h2 {
     flex-direction: row;
 }
 
+.wrapper {
+    width: 1600px;
+    margin: auto;
+}
+
 
 /* by classes */
 .header-navigation {
     color: #fff;
+}
+
+.header__wrapper {
+    padding: 35px 0;
 }
 
 .header-navigation-buttons {
@@ -80,6 +89,10 @@ h2 {
     height: 744px;
 }
 
+.your-life__wrapper {
+    padding: 250px 0;
+}
+
 .socials-buttons {
     display: flex;
     justify-content: space-between;
@@ -92,6 +105,10 @@ h2 {
 .rappresent-block {
     background-color: aqua;
     height: 842px;
+}
+
+.rappresent__wrapper {
+    padding: 300px 0;
 }
 
 .rappresent-content {
@@ -107,9 +124,17 @@ h2 {
     text-align: center;
 }
 
+.our-community__wrapper {
+    padding: 150px 0;
+}
+
 .implement-block {
     background-color: lightgoldenrodyellow;
     height: 842px;
+}
+
+.implement__wrapper {
+    padding: 350px 0;
 }
 
 .implement-img {
@@ -126,17 +151,18 @@ h2 {
     height: 598px;
 }
 
-/*
-.wrapper {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}*/
+.subscribe__wrapper {
+    padding: 250px 0;
+}
 
 .download-block {
     background-color: lightgoldenrodyellow;
     height: 468px;
     text-align: center;
+}
+
+.download__wrapper {
+    padding: 150px 0;
 }
 
 .download-buttons {
@@ -160,3 +186,4 @@ h2 {
     list-style: none;
     width: 25%;
 }
+
