@@ -1,11 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     width: 1600px;
     height: 100%;
     margin: 0 auto;
+    padding: 0;
     font-size: 10px;    
 }
 
 body {
+    margin: 0;
+    padding: 0;
     height: 100%;
     font-family: Roboto, sans-serif;
     font-size: 1.4rem;
@@ -13,7 +22,9 @@ body {
 }
 
 header {
-    height: 95px;
+    margin: 0;
+    padding: 0;
+    height: 80px;
     background-color: #000;
 }
 
@@ -69,12 +80,6 @@ a {
     width: 100%;
 }
 
-/*
-.wrapper {
-    width: 1600px;
-    margin: auto;
-}*/
-
 .button {
     width: 128px;
     height: 50px;
@@ -86,28 +91,49 @@ a {
 }
 
 .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     width: 184px;
     height: 46px;
     margin: 30px 0;
+    text-transform: uppercase;
+    
 }
 
 /* HEADER */
 .header-navigation {
+    padding-top: 23px;
+    padding-right: 11px;
+    margin: 0;
     color: #fff;
 }
 
 .header-navigation-buttons {
+    height: inherit;
     margin: 0 auto; 
     padding: 0;
     list-style: none;
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
 }
 
 .header-navigation-buttons li {
-    margin: 20px;
+    margin: 0 47px;
 }
+/*
+.header-navigation-buttons li:nth-child(2) {
+    margin-left: 66px;
+    margin-right: 80px;
+}
+.header-navigation-buttons li:nth-child(4) {
+    margin: 0 110px;
+}
+*/
+
 
 /*
 .header-navigation-buttons li:nth-child(1) {
@@ -117,6 +143,9 @@ a {
 
 /* YOUR LIFE BLOCK */
 .your-life-block {
+    height: 664px;
+    margin: 0 auto;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,30 +153,51 @@ a {
     width: 100%;
     text-align: center;
     background-image: url(./assets/pic-1.png);
-    height: 744px;
+    background-position: bottom;
+    line-height: 100px;
+}
+
+.your-life-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.your-life-block h2 {
+    padding-top: 8px;
+    padding-left: 4px;
 }
 
 .your-life-text {
+    margin-top: 10px;
+    margin-bottom: 5px;
     width: 504px;
     height: 50px;
-    margin: auto;
-
     color: rgb(185, 179, 179);
     font-size: 18px;
     line-height: 2.5rem;
 }
 
+.your-life-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
 
 .socials-buttons {
     display: flex;
     justify-content: center; 
-    padding: 130px 0;
     list-style: none;
-    width: 100%;
 }
 
 .socials-buttons li {
-    margin: 20px;
+    margin: 15px;
 }
 
 /* RAPPRESENT BLOCK */
