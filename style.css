@@ -69,6 +69,10 @@ a {
     text-decoration: none;
 }
 
+strong {
+    color: #373737;
+}
+
 /* REUSABLE */
 .two-column-layout, .three-column-layout {
     margin: 0;
@@ -121,20 +125,10 @@ a {
     width: 100%;
 }
 
+
 .header-navigation-buttons li {
     margin: 0 47px;
 }
-/*
-.header-navigation-buttons li:nth-child(2) {
-    margin-left: 66px;
-    margin-right: 80px;
-}
-.header-navigation-buttons li:nth-child(4) {
-    margin: 0 110px;
-}
-*/
-
-
 /*
 .header-navigation-buttons li:nth-child(1) {
     text-decoration: underline;
@@ -206,6 +200,7 @@ a {
     padding: 0;
     background-color: #fff;
     height: 842px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -213,13 +208,13 @@ a {
 }
 
 .rappresent-content {
-    /*flex: 1;*/
     width: 407px;
     margin-right: 248px; 
     margin-top: 10px;
 }
 
 .rappresent-content h3 {
+    color: #373737;
     letter-spacing: 1px;
     width: 375px;
     font-size: 2.4rem;
@@ -228,18 +223,13 @@ a {
 }
 
 .rappresent-content p{
-    line-height: 2rem;
-    margin-top: 24px;
-    margin-bottom: 35px;
+    color: #4E4E4E;
+    line-height: 19.6px;
+    margin: 20px 0;
 }
 
-/*
-.rappresent-button {
-    margin: 10px 0;
-}*/
-
 .rappresent-img {
-    margin-bottom: 11px; 
+    margin-bottom: 14px; 
 }
 
 /* OUR COMMUNITY BLOCK */
@@ -248,21 +238,38 @@ a {
     margin: 0;
     background-color: #F5F6F7;
     height: 504px;
+
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    /*text-align: center;*/
 }
 
 .our-community-content {
-    width: 300px;
-    margin: auto auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-/*
-.our-community-slider {
+    width: 290px;
+    margin-bottom: 16px;
+    margin-left: 130px;
+    text-align: center;
 
-}*/
+}
+
+.our-community-block h3 {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    color: #373737;
+}
+
+.our-community-block p {
+    color: #4E4E4E;
+}
+
+.our-community-slider {
+    margin-bottom: 14px;
+}
 
 /* IMPLEMENT BLOCK */
 .implement-block {
@@ -285,11 +292,16 @@ a {
 }
 
 .implement-content h3 {
+    color: #373737;
     letter-spacing: 1px;
     width: 375px;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 3rem;
+}
+
+.implement-content p {
+    color: #4E4E4E;
 }
 
 .learn-more-button {
