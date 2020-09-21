@@ -274,21 +274,23 @@ strong {
 /* IMPLEMENT BLOCK */
 .implement-block {
     background-color: #fff;
-    display: flex;
-    justify-content: space-between;
     height: 842px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.implement-img {
+    margin-bottom: 14px;
+    margin-right: 70px;
 }
 
-/*
-.implement-img {
-    /*flex: 50%;*/
-    /* margin: 120px 50px 120px 260px;*/
-/*}*/
 .implement-content {
-    /*flex: 50%;*/
+    margin-left: 170px;
+    margin-bottom: 30px;
     width: 415px;
-    line-height: 2rem;
-    margin: 310px 130px 310px 100px;
 }
 
 .implement-content h3 {
@@ -301,23 +303,31 @@ strong {
 }
 
 .implement-content p {
+    margin: 20px 0; 
     color: #4E4E4E;
 }
 
 .learn-more-button {
-    width: 180px;
-    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 184px;
+    height: 46px;
+    text-transform: uppercase;
 }
 
 /* SUBSCRIBE BLOCK */
 .subscribe-block {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
     text-align: center;
     background-image: url(./assets/pic-4.jpg);
-    height: 598px;
+    height: 524px; 
 }
 
 .subscribe-block h3 {
@@ -334,7 +344,7 @@ strong {
 }
 
 .button .submit-email {
-    width: 66px;
+    width: 46px;
 }
 
 .email-input-area::placeholder {
@@ -361,12 +371,30 @@ strong {
     width: 100%;
 }
 
+.download-buttons .button {
+    margin: 0 18px;
+}
+
 .apple-store {
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 184px;
+    height: 46px;
+    margin: 30px 0;
+    text-transform: uppercase;
 }
 
 .play-market {
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 184px;
+    height: 46px;
+    margin: 30px 0;
+    text-transform: uppercase;
 }
 
 /* FOOTER */
