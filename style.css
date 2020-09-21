@@ -1,11 +1,12 @@
 html {
     width: 1600px;
+    height: 100%;
     margin: 0 auto;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
 
 body {
+    height: 100%;
     font-family: Roboto, sans-serif;
     font-size: 1.4rem;
     line-height: 140%;
@@ -57,17 +58,22 @@ a {
     text-decoration: none;
 }
 
-/* reusable  layout*/
-.two-column-layout {
+/* REUSABLE */
+.two-column-layout, .three-column-layout {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+/*
 .wrapper {
     width: 1600px;
     margin: auto;
-}
+}*/
 
 .button {
     width: 128px;
@@ -79,14 +85,15 @@ a {
     font-weight: 700;
 }
 
-
-/* by classes */
-.header-navigation {
-    color: #fff;
+.get-started {
+    width: 184px;
+    height: 46px;
+    margin: 30px 0;
 }
 
-.header__wrapper {
-    padding: 35px 0;
+/* HEADER */
+.header-navigation {
+    color: #fff;
 }
 
 .header-navigation-buttons {
@@ -108,21 +115,16 @@ a {
     font-weight: 700;
 }*/
 
-
-/* interactive button
-li.about-us:hover {
-    text-decoration: underline;
-    font-weight: 700;
-}*/
-
+/* YOUR LIFE BLOCK */
 .your-life-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-align: center;
     background-image: url(./assets/pic-1.png);
     height: 744px;
-}
-
-.your-life__wrapper {
-    padding: 205px 0;
 }
 
 .your-life-text {
@@ -130,30 +132,30 @@ li.about-us:hover {
     height: 50px;
     margin: auto;
 
-    color: #fff;
+    color: rgb(185, 179, 179);
     font-size: 18px;
     line-height: 2.5rem;
 }
 
-.get-started {
-    width: 184px;
-    height: 46px;
-    margin: 30px 0;
-}
 
 .socials-buttons {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
+    justify-content: center; 
     padding: 130px 0;
     list-style: none;
-    width: 11%;
+    width: 100%;
 }
 
+.socials-buttons li {
+    margin: 20px;
+}
+
+/* RAPPRESENT BLOCK */
 .rappresent-block {
     background-color: #fff;
     height: 842px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -161,7 +163,7 @@ li.about-us:hover {
     /*flex: 1;*/
     width: 407px;
     line-height: 2rem;
-    margin: 295px 130px 315px 270px;
+    /*margin: 295px 130px 315px 270px;*/
 }
 
 .rappresent-content h3 {
@@ -181,24 +183,29 @@ li.about-us:hover {
     margin: 120px 150px 140px 100px;
 }
 
+/* OUR COMMUNITY BLOCK */
 .our-community-block {
+    padding: 0;
+    margin: 0;
     background-color: #F5F6F7;
     height: 504px;
+    display: flex;
     text-align: center;
 }
 
 .our-community-content {
     width: 300px;
-    margin: auto 0;
+    margin: auto auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
-
+/*
 .our-community-slider {
-    display: flex;
-}
 
+}*/
+
+/* IMPLEMENT BLOCK */
 .implement-block {
     background-color: #fff;
     display: flex;
@@ -206,11 +213,11 @@ li.about-us:hover {
     height: 842px;
 }
 
+/*
 .implement-img {
     /*flex: 50%;*/
-    margin: 120px 50px 120px 260px;
-}
-
+    /* margin: 120px 50px 120px 260px;*/
+/*}*/
 .implement-content {
     /*flex: 50%;*/
     width: 415px;
@@ -231,7 +238,12 @@ li.about-us:hover {
     margin: 10px 0;
 }
 
+/* SUBSCRIBE BLOCK */
 .subscribe-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     text-align: center;
     background-image: url(./assets/pic-4.jpg);
     height: 598px;
@@ -258,27 +270,45 @@ li.about-us:hover {
     margin-left: 40px;
 }
 
-.subscribe__wrapper {
-    padding: 250px 0;
-}
-
+/* DOWNLOAD BLOCK */
 .download-block {
-    background-color: lightgoldenrodyellow;
+    background-color: #F5F6F7;
     height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     text-align: center;
-}
-
-.download__wrapper {
-    padding: 150px 0;
 }
 
 .download-buttons {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
-    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    width: 15%;
+    width: 100%;
+}
+
+.apple-store {
+    margin: 30px;
+}
+
+.play-market {
+    margin: 30px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-item {
+    margin: 30px;   
 }
 
 .footer-navigation {
@@ -287,10 +317,18 @@ li.about-us:hover {
 
 .footer-navigation-buttons {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
-    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    width: 25%;
+    width: 100%;
+}
+
+.footer-navigation-buttons li {
+    margin: 30px;
+}
+
+.footer-credits p {
+    color: #fff;
 }
 
