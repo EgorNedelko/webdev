@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-h1, h2, button {
+h2, h3, button {
     text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@ input {
     border: none;
 }
 
-h1 {
+h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 6.4rem;
@@ -46,7 +46,7 @@ h1 {
     color: #fff;
 }
 
-h2 {
+h3 {
     font-weight: 700;
     font-style: normal;
     font-size: 2.4rem;
@@ -96,6 +96,13 @@ a {
     list-style: none;
     width: 35%;
 }
+
+/*
+.header-navigation-buttons li:nth-child(1) {
+    text-decoration: underline;
+    font-weight: 700;
+}*/
+
 
 /* interactive button
 li.about-us:hover {
@@ -156,7 +163,7 @@ li.about-us:hover {
     margin: 295px 130px 315px 270px;
 }
 
-.rappresent-content h2 {
+.rappresent-content h3 {
     letter-spacing: 1px;
     width: 375px;
     font-size: 2.4rem;
@@ -191,7 +198,7 @@ li.about-us:hover {
 }*/
 
 .implement-block {
-    background-color: lightgoldenrodyellow;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     height: 842px;
@@ -214,7 +221,7 @@ li.about-us:hover {
     margin: 310px 130px 310px 100px;
 }
 
-.implement-content h2 {
+.implement-content h3 {
     letter-spacing: 1px;
     width: 375px;
     font-size: 2.4rem;
@@ -229,8 +236,30 @@ li.about-us:hover {
 
 .subscribe-block {
     text-align: center;
-    background-color: aqua;
+    background-image: url(./assets/pic-4.jpg);
     height: 598px;
+}
+
+.subscribe-block h3 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 2.8rem;
+
+}
+
+.email-input-area {
+    width: 340px;
+    height: 46px;
+}
+
+.button .submit-email {
+    width: 66px;
+}
+
+.email-input-area::placeholder {
+    margin-left: 40px;
 }
 
 .subscribe__wrapper {
