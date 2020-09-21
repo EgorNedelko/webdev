@@ -202,18 +202,21 @@ a {
 
 /* RAPPRESENT BLOCK */
 .rappresent-block {
+    margin: 0;
+    padding: 0;
     background-color: #fff;
     height: 842px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .rappresent-content {
     /*flex: 1;*/
     width: 407px;
-    line-height: 2rem;
-    /*margin: 295px 130px 315px 270px;*/
+    margin-right: 248px; 
+    margin-top: 10px;
 }
 
 .rappresent-content h3 {
@@ -224,13 +227,19 @@ a {
     line-height: 3rem;
 }
 
-.rappresent-button {
-    margin: 10px 0;
+.rappresent-content p{
+    line-height: 2rem;
+    margin-top: 24px;
+    margin-bottom: 35px;
 }
 
+/*
+.rappresent-button {
+    margin: 10px 0;
+}*/
+
 .rappresent-img {
-    /*flex: 1;*/
-    margin: 120px 150px 140px 100px;
+    margin-bottom: 11px; 
 }
 
 /* OUR COMMUNITY BLOCK */
