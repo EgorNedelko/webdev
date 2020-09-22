@@ -89,9 +89,8 @@ strong {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .button {
@@ -179,7 +178,6 @@ strong {
 }
 
 .your-life-text {
-    /*margin-top: 10px;*/
     margin-left: 1px;
     margin-top: 1px;
     width: 504px;
@@ -265,20 +263,21 @@ strong {
 
 .our-community-content {
     flex: 1;
+    margin-top: 4px;
     text-align: center;
 }
 
 .our-community-content-wrapper {
-    width: 290px;
-    margin-left: 130px;
-    margin-bottom: 16px;
+    width: 295px;
+    margin-left: 270px;
+    margin-bottom: 25px;
 }
 
 .our-community-block h3 {
     font-size: 18px;
     line-height: 20px;
     letter-spacing: 1px;
-    margin: 15px 0;
+    margin: 15px 0 12px 3px;
     color: #373737;
 }
 
@@ -289,13 +288,19 @@ strong {
 .our-community-slider {
     flex: 2;
     overflow: hidden;
-    margin-bottom: 50px;
-    margin-left: 260px;
+    margin-bottom: 63px;
+    margin-left: 126px;
 }
+
+.our-community-slider .slider-item {
+    margin: 0 15px;
+} 
 
 .slider-controls-list {
     font-size: 1.8rem;
     line-height: 30px;
+    margin-left: 289px;
+    margin-bottom: 13px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -306,7 +311,7 @@ strong {
     margin: 0 2px;
 }
 .slider-controls-list li:nth-child(1), .slider-controls-list li:nth-child(5) {
-    margin: 0 10px;
+    margin: 0 13px;
 }
 
 /* IMPLEMENT BLOCK */
