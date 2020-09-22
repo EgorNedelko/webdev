@@ -108,7 +108,7 @@ strong {
 
 /* HEADER */
 .header-navigation {
-    padding-top: 23px;
+    padding-top: 24px;
     padding-right: 11px;
     margin: 0;
     color: #fff;
@@ -129,11 +129,11 @@ strong {
 .header-navigation-buttons li {
     margin: 0 47px;
 }
-/*
+
 .header-navigation-buttons li:nth-child(1) {
     text-decoration: underline;
     font-weight: 700;
-}*/
+}
 
 /* YOUR LIFE BLOCK */
 .your-life-block {
@@ -153,21 +153,24 @@ strong {
 
 .your-life-content {
     display: flex;
+    flex: 4;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
+    margin-top: 33px;
 }
 
 .your-life-block h2 {
-    padding-top: 8px;
-    padding-left: 4px;
+    margin-bottom: 8px;
+    margin-left: 5px;
 }
 
 .your-life-text {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    /*margin-top: 10px;*/
+    margin-left: 1px;
+    margin-top: 1px;
     width: 504px;
     height: 50px;
     color: rgb(185, 179, 179);
@@ -177,11 +180,11 @@ strong {
 
 .your-life-buttons {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex: 1;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
     text-align: center;
+    margin-bottom: 29px;
 }
 
 .socials-buttons {
