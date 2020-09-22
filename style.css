@@ -320,19 +320,23 @@ strong {
     height: 842px;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }   
 
 .implement-img {
-    margin-bottom: 14px;
-    margin-right: 70px;
+    flex: 1;
+    margin-bottom: 15px;
+    margin-left: 269px;
 }
 
 .implement-content {
-    margin-left: 170px;
-    margin-bottom: 30px;
+    flex: 1;
+    margin-right: 240px;
+    margin-bottom: 20px;
+}
+
+.implement-content-wrapper {
     width: 415px;
 }
 
@@ -348,6 +352,10 @@ strong {
 .implement-content p {
     margin: 20px 0; 
     color: #4E4E4E;
+}
+
+.implement-content .button {
+    margin-top: 35px;
 }
 
 .learn-more-button {
