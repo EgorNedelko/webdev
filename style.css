@@ -130,10 +130,11 @@ strong {
     margin: 0 47px;
 }
 
+/*
 .header-navigation-buttons li:nth-child(1) {
     text-decoration: underline;
     font-weight: 700;
-}
+}*/
 
 /* YOUR LIFE BLOCK */
 .your-life-block {
@@ -205,15 +206,14 @@ strong {
     height: 842px;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .rappresent-content {
-    width: 407px;
-    margin-right: 248px; 
-    margin-top: 10px;
+    flex: 2;
+    margin-left: 269px;
+    margin-top: 8px;
 }
 
 .rappresent-content h3 {
@@ -225,14 +225,17 @@ strong {
     line-height: 3rem;
 }
 
-.rappresent-content p{
+.rappresent-text {
+    width: 405px;
     color: #4E4E4E;
     line-height: 19.6px;
-    margin: 20px 0;
+    margin: 21px 0;
 }
 
 .rappresent-img {
-    margin-bottom: 14px; 
+    flex: 1;
+    margin-bottom: 15px;
+    margin-right: 269px;
 }
 
 /* OUR COMMUNITY BLOCK */
