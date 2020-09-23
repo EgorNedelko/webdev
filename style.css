@@ -458,9 +458,10 @@ strong {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    white-space: nowrap;
     font-weight: 700;
     padding: 15px 20px;
-    width: 184px;
+    width: 185px;
     height: 46px;
     text-transform: uppercase;
     background: linear-gradient(90deg, #00AFDB 68%, #009CC2 68%);
@@ -471,12 +472,23 @@ strong {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    white-space: nowrap;
     font-weight: 700;
     padding: 15px 20px;
-    width: 184px;
+    width: 185px;
     height: 46px;
     background: linear-gradient(90deg, #00AFDB 68%, #009CC2 68%);
     text-transform: uppercase;
+}
+
+.apple-ico {
+    position: absolute;
+    left: 811px;
+}
+
+.android-ico {
+    position: absolute;
+    right: 684px;
 }
 
 /* FOOTER */
