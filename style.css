@@ -21,6 +21,19 @@ body {
     line-height: 140%;
 }
 
+h1 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -112,7 +125,10 @@ strong {
     height: 46px;
     margin: 30px 0;
     text-transform: uppercase;
-    
+}
+
+.get-started:hover {
+    background-color: #009CC2;
 }
 
 /* HEADER */
@@ -134,16 +150,20 @@ strong {
     width: 100%;
 }
 
-
 .header-navigation-buttons li {
     margin: 0 47px;
 }
 
-/*
+.header-navigation-buttons li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 .header-navigation-buttons li:nth-child(1) {
     text-decoration: underline;
     font-weight: 700;
-}*/
+}
 
 /* YOUR LIFE BLOCK */
 .your-life-block {
@@ -257,8 +277,6 @@ strong {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    /*text-align: center;*/
 }
 
 .our-community-content {
@@ -368,6 +386,10 @@ strong {
     text-transform: uppercase;
 }
 
+.learn-more-button:hover {
+    background-color: #009CC2;
+}
+
 /* SUBSCRIBE BLOCK */
 .subscribe-block {
     height: 524px;
@@ -406,6 +428,10 @@ strong {
     background-image: url(./assets/fa-check-ico.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.submit-email:hover {
+    background-color: #009CC2;
 }
 
 .email-input-area::placeholder {
@@ -451,6 +477,10 @@ strong {
 .apple-store, .play-market {
     margin: 0 16px;
     margin-top: 6px;
+}
+
+.apple-store:hover, .play-market:hover {
+    background: linear-gradient(90deg, #009CC2 68%, #009CC2 68%);
 }
 
 .apple-store {
@@ -527,6 +557,11 @@ strong {
 
 .footer-navigation-buttons li {
     margin: 30px;
+}
+
+.footer-navigation-buttons li:hover {
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .footer-credits {
