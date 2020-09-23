@@ -370,15 +370,12 @@ strong {
 
 /* SUBSCRIBE BLOCK */
 .subscribe-block {
-    box-sizing: border-box;
+    height: 524px;
+    background-image: url(./assets/pic-4.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    text-align: center;
-    background-image: url(./assets/pic-4.jpg);
-    height: 524px; 
 }
 
 .subscribe-block h3 {
@@ -387,6 +384,8 @@ strong {
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 2.8rem;
+    margin-top: 12px;
+    margin-left: 1px;
 }
 
 .email-input-area {
@@ -394,12 +393,27 @@ strong {
     height: 46px;
 }
 
-.button .submit-email {
-    width: 25px;
+/*
+.email-input-area input::after {
+    background-image: url(./assets/fa-check-ico.svg);
+}*/
+.email-form {
+    margin: 30px 0 33px 0;
+}
+
+.submit-email {
+    width: 66px;
+    height: 46px;
+    background: #00AFDB;
+    color: transparent;
+    font-size: 13px;
+    background-image: url(./assets/fa-check-ico.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .email-input-area::placeholder {
-    margin-left: 40px;
+    padding-left: 25px;
 }
 
 /* DOWNLOAD BLOCK */
