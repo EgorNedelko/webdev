@@ -393,10 +393,6 @@ strong {
     height: 46px;
 }
 
-/*
-.email-input-area input::after {
-    background-image: url(./assets/fa-check-ico.svg);
-}*/
 .email-form {
     margin: 30px 0 33px 0;
 }
@@ -423,58 +419,69 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    text-align: center;
+    align-items: center;
+}
+
+.download-block-wrapper {
+    margin-bottom: 56px;
 }
 
 .download-block h3 {
     color: #373737;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
 }
 
-.download-block p {
+.download-block-text {
+    font-size: 14px;
     color: #4E4E4E;
-    margin: 15px 0;
+    margin: 25px auto;
+    width: 470px;
+    text-align: center;
 }
 
 .download-buttons {
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    width: 100%;
 }
 
-.download-buttons .button {
-    margin: 0 18px;
+.apple-store, .play-market {
+    margin: 0 16px;
+    margin-top: 6px;
 }
 
 .apple-store {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    font-weight: 700;
+    padding: 15px 20px;
     width: 184px;
     height: 46px;
-    margin: 30px 0;
     text-transform: uppercase;
+    background: linear-gradient(90deg, #00AFDB 68%, #009CC2 68%);
 }
 
 .play-market {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    font-weight: 700;
+    padding: 15px 20px;
     width: 184px;
     height: 46px;
-    margin: 30px 0;
+    background: linear-gradient(90deg, #00AFDB 68%, #009CC2 68%);
     text-transform: uppercase;
 }
 
 /* FOOTER */
 footer {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
